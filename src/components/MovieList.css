@@ -1,0 +1,10 @@
+.App-MovieList{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.App-MovieItem{
+    display: flex;
+    width: 250px;
+    height: 400px;
+}
