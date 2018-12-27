@@ -1,0 +1,48 @@
+.headerContainer{
+    display: flex;
+}
+.bms{
+    width: 180px;
+    height: 80px;
+}
+.searchBar{
+    border-radius: 8px;
+    margin-top: 10px;
+    width: 800px;
+    height: 40px;
+    background-image: url(../../icons/search.png);
+    border-style: hidden;
+}
+.login{
+    background-color: #0078ff;
+    height : 28px;
+    width: 65px;
+    margin: 12px;
+    border-radius: 5px;
+    border-style: hidden;
+    color: white;
+}
+.menu{
+    width: 18px;
+    height: 12px;
+    margin-top: 12px;
+    background-color: #343942;
+}
+.navBar{
+    display: flex;
+}
+.navBarA{
+    justify-items: flex-start;
+}
+.navBarB{
+    justify-items: flex-end;
+}
+.navBarA > a{
+    margin: 8px;
+    font-size: 15px;
+}
+.navBarB > a{
+    margin: 5px;
+    font-size: 12px;
+    color: gray;
+}

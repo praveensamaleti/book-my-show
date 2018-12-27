@@ -8,7 +8,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #343942;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,6 +23,7 @@
 
 .App-Content{
   display: flex;
+  background-color: whitesmoke;
 }
 .App-Navigation{
   flex-basis: 40%;

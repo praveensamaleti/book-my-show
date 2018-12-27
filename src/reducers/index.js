@@ -12,7 +12,6 @@ const rootReducer = (state = initialState, action) => {
     case ADD_ARTICLE:
       return { ...state, articles: [...state.articles, action.payload] };
     case STORE_MOVIES:
-    console.log(action.payload);
       return { ...state, movies:action.payload};
     case STORE_GENRES:
       return { ...state, genres:action.payload};

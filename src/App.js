@@ -6,6 +6,7 @@ import { connect } from "react-redux";
 import { storeMovies,storeGenres } from './actions/index';
 import Navigation from './components/Navigation/Navigation';
 import MainPage from './components/MainPage/MainPage';
+import Header from './components/header/Header';
 
 const mapStateToProps = state => {
   return { selectedGenre:state.parameters.selectedGenre };
@@ -26,7 +27,7 @@ class App extends Component {
     if(genreId){
       movieURL = `https://api.themoviedb.org/3/discover/movie?api_key=07a7f693a056feaeb1004f6d09a98bcc&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&with_genres=${genreId}`;
     }else{
-      movieURL = `https://api.themoviedb.org/3/discover/movie?api_key=07a7f693a056feaeb1004f6d09a98bcc&language=en-US&sort_by=popularity.desc&include_adult=false&include_video=false&page=1`;
+      movieURL = `https://api.themoviedb.org/3/trending/movie/day?api_key=07a7f693a056feaeb1004f6d09a98bcc`;
     }
     fetch(movieURL)
       .then(response => response.json())
@@ -44,12 +45,10 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <p>
-            WelCome to Book My Show
-          </p>
+          <Header/>
         </header>
         <div className="App-Content">
-          <div className="App-Navigation"><Navigation/></div>
+          
           <MainPage/>
         </div>
         
