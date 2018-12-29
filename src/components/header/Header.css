@@ -30,19 +30,23 @@
 }
 .navBar{
     display: flex;
+    margin: 0px 0px 5px 5px;
 }
 .navBarA{
-    justify-items: flex-start;
+    margin-right: auto;
 }
 .navBarB{
-    justify-items: flex-end;
+    margin-left: auto;
 }
 .navBarA > a{
     margin: 8px;
     font-size: 15px;
+    color: white;
+    text-decoration-line: none;
 }
 .navBarB > a{
     margin: 5px;
     font-size: 12px;
     color: gray;
+    text-decoration-line: none;
 }

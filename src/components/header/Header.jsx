@@ -8,7 +8,7 @@ class Header extends React.Component{
     render(){
         return(
             <div className="headerContainer">
-                <img src={bms} className="bms"/>
+                <img src={bms} alt="" className="bms"/>
                 <div>
                     <div>
                         <input type="search" placeholder="Search for Movies, Events, Plays and Sports" 
@@ -16,20 +16,20 @@ class Header extends React.Component{
                     </div>
                     <div className="navBar">
                         <div className="navBarA">
-                            <a>Movies</a>
-                            <a>Events</a>
-                            <a>Plays</a>
-                            <a>Sports</a>
-                            <a>Monuments</a>
-                            <a>Activities</a>
+                            <a href="#">Movies</a>
+                            <a href="#">Events</a>
+                            <a href="#">Plays</a>
+                            <a href="#">Sports</a>
+                            <a href="#">Monuments</a>
+                            <a href="#">Activities</a>
                         </div>
                         <div className="navBarB">
-                        <a>Corporates</a>
-                        <a>Offers</a>
-                        <a>Gift Cards</a>
-                        <a>Hyderabad</a>
-                        <a>English</a>
-                    </div>
+                            <a href="#">Corporates</a>
+                            <a href="#">Offers</a>
+                            <a href="#">Gift Cards</a>
+                            <a href="#">Hyderabad</a>
+                            <a href="#">English</a>
+                        </div>
                     </div>
                     
                 </div>
