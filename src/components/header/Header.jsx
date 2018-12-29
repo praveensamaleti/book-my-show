@@ -1,6 +1,7 @@
 import React from 'react';
 import bms from '../../icons/bms.png';
 import menu from '../../icons/menu.png';
+import search from '../../icons/search.png';
 
 import './Header.css';
 
@@ -10,7 +11,8 @@ class Header extends React.Component{
             <div className="headerContainer">
                 <img src={bms} alt="" className="bms"/>
                 <div>
-                    <div>
+                    <div className="search">
+                        <div className="searchIcon"><img src={search} alt="" /></div>
                         <input type="search" placeholder="Search for Movies, Events, Plays and Sports" 
                             className="searchBar"/>
                     </div>
