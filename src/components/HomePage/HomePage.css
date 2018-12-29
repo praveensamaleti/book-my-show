@@ -1,0 +1,12 @@
+.homePage{
+    display: flex;
+    grid-template-columns: 100px 500px;
+}
+.trend{
+    margin: 0 30px 0 30px;
+    grid-auto-columns: auto;
+    width: 1000px;
+}
+.homeMovies{
+    margin: 0px 30px 0px 0px;
+}

@@ -1,10 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import MovieList from './components/MovieList';
 import store from './store/index';
 import { connect } from "react-redux";
 import { storeMovies,storeGenres } from './actions/index';
-import Navigation from './components/Navigation/Navigation';
 import MainPage from './components/MainPage/MainPage';
 import Header from './components/header/Header';
 

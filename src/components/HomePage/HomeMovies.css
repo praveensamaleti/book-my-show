@@ -1,0 +1,17 @@
+
+.homeMovies > div{
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0px 10px 0px;
+}
+.movieList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.movieList li{
+    border-bottom: 10px solid whitesmoke;
+    float: left;
+    margin: 0 20px 20px 0px;
+}

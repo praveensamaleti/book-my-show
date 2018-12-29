@@ -1,0 +1,25 @@
+.trend > div{
+    font-size: 20px;
+    text-align: left;
+    margin: 10px 0px 10px 0px;
+}
+.trendList{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.trendList li{
+    border-bottom: 2px solid whitesmoke;
+    text-align: left;
+    padding: 10px;
+}
+.trendList li p{
+    margin:0px;
+    font-size: 12px;
+    color: gray;
+}
+.trendList li:hover {
+    color: blue;
+    cursor: pointer;
+}
