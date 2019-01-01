@@ -5,13 +5,14 @@
     margin: 10px 0px 10px 0px;
 }
 .movieList{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    display: inline-block;
 }
-.movieList li{
-    border-bottom: 10px solid whitesmoke;
+.movieList a{
     float: left;
     margin: 0 20px 20px 0px;
+}
+.homeMovies > img {
+    width : 40px;
+    background-color: white;
+    border-radius: 50%;
 }

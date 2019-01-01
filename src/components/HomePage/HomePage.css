@@ -5,7 +5,7 @@
 .trend{
     margin: 0 30px 0 30px;
     grid-auto-columns: auto;
-    width: 1000px;
+    min-width: 300px;
 }
 .homeMovies{
     margin: 0px 30px 0px 0px;
