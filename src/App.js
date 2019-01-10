@@ -46,7 +46,6 @@ class App extends Component {
           <Header/>
         </header>
         <div className="App-Content">
-          
           <MainPage/>
         </div>
         
